@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(24, 24, 24); 
+    color: white; 
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    float: left;
+    margin-right: 20px;
+}
+#menu img {
+    width: 60%;
+    height: auto; 
+    align-items: center;
+}
+
+#Libros {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    height: auto;
+}
+
+#Lista {
+    text-align: center; 
+    margin: 10px; 
+}
+
+th, td {
+    text-align: center;
+}
+
+th {
+    padding: 10px; 
+}
+
+#Libros table img {
+    width: 100%; 
+    height: auto; 
+}
+
+#Libros table img.fixed-size {
+    width: 100%; 
+    height: auto; 
+}
+.seccion {
+    width: 100%; 
+    margin: auto; 
+}
+.subtitulo {
+    text-align:justify;
+}
+.menu img {
+    width: 100%; 
+    height: auto;
+}
+.titulo {
+    text-align: start;
+    padding: 2%;
+}
+.cantidad {
+    text-align:end;
+    padding: 2%;
+}
